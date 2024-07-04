@@ -1,0 +1,103 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(209, 171, 124);
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 5px 5px rgb(146, 120, 87);
+    border-bottom: 2px solid burlywood;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 20px;
+    display: block;
+    float: right;
+}
+
+.button:hover {
+    color: rebeccapurple;
+    box-shadow: 0 5px 5px rgb(110, 84, 136);
+    transition: .3s;
+}
+
+/* MAIN ELEMENTS */
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: -25px;
+    font-size: 15px;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 400px;
+}
+
+/* INDEX */
+
+.main-page {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.menu-check {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-check:hover {
+    color: rebeccapurple;
+}
+
+/* MENU */
+
+
+.main-box {
+    border: 2px solid black;
+    width: 80%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col {
+    width: 31%;
+    height: 500px;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+.food {
+    float: left;
+}
+
+.price {
+    float: right;
+}
