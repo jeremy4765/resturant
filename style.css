@@ -48,6 +48,8 @@ img {
     margin-right: auto;
     width: 500px;
     height: 400px;
+    max-width: 100%;
+    max-height: auto;
 }
 
 /* INDEX */
